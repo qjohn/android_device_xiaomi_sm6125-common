@@ -186,6 +186,7 @@ PRODUCT_PACKAGES += \
     hwcomposer.trinket \
     memtrack.trinket \
     libdisplayconfig \
+    libdisplayconfig.qti \
     libdisplayconfig.vendor \
     liboverlay \
     libtinyxml \
