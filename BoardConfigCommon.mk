@@ -180,6 +180,10 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    /product/lib64/libdpmframework.so|libshim_dpmframework.so
+
 # Treble
 PRODUCT_VENDOR_MOVE_ENABLED := true
 BOARD_VNDK_VERSION := current
